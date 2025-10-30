@@ -3,4 +3,39 @@ ul {
     margin: 0 auto;
     padding-left: 0;
 }
-
+h2 {
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 600;
+font-size: 24px; 
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+.item {
+   display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 16px; 
+border-radius: 8px;
+padding: 16px;
+background-color: #f6f6fe;
+}
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.item-list-name {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+padding: 8px 16px;
+}
