@@ -5,7 +5,8 @@ const refs = {
 refs.input.addEventListener("input", handleInputFilled);
 function handleInputFilled() {
   if (refs.input.value.trim() === "") {
-    return;
+    refs.output.textContent = "Anonymous";
+    return refs.output;
   }
   refs.output.textContent = refs.input.value.trim();
   return refs.output;
