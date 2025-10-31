@@ -4,7 +4,7 @@ const refs = {
 };
 refs.input.addEventListener("input", handleInputFilled);
 function handleInputFilled() {
-  if (refs.input.value === "") {
+  if (refs.input.value.trim() === "") {
     return;
   }
   refs.output.textContent = refs.input.value.trim();
